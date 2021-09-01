@@ -1,0 +1,11 @@
+<?php
+$qr .= "".$rucSucursal." | 03** | ".$serie." | ".str_pad($numComprobante, 8, "0", STR_PAD_LEFT)." | ".$impuesto." | ".$total." | ".date("d/m/Y")." | 1* | ".$documentoCliente." |";
+?>
+               
+        <center><img src="qrgen.php?data=<?php echo urlencode($qr); ?>" style="width:130px !important;"/></center>
+
+** 03 para boleta
+   01 para factura
+
+* 1 para cliente con DNI
+  6 para cliente con RUC

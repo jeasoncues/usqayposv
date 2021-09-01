@@ -1,0 +1,191 @@
+body {
+    font-family: "Lucida Console", Monaco, monospace;
+    font-size: 12px;
+    /*zoom: 200%;*/
+    /*font-weight: 200;*/
+    width: 100%;
+    margin: 0px;
+}
+
+
+.logo{
+    display: inline-block;
+    border: 1px solid;
+    /*height: 50px;*/
+    width: 45%;
+    margin-top: 10px;
+}
+
+.numeracion{
+    display: inline-block;
+    float: right;
+    border: 1px solid;
+    height: 180px;
+    margin-top: 10px;
+    width: 300px;
+    text-align: center;
+    background-color: rgb(241,241,241);
+    border-radius: 10px;
+}
+.num{
+    display: inline-block;
+    float: right;
+    border: 1px solid;
+    height: 180px;
+    margin-top: -180px;
+    width: 300px;
+    text-align: center;
+    background-color: rgb(241,241,241);
+    border-radius: 10px;
+}
+.numeracion h4,h3{
+    /*font-size: 16px;*/
+    font-weight: bold;
+}
+
+.empresa{
+    display: inline-block;
+    /*border: 1px solid;*/
+    height: 100px;
+    /*margin-top: 10px;*/
+    width: 68%;
+    padding-left: 10px;
+    padding-top: 10px;
+    /*padding-right: 10px;*/
+    padding-bottom: 10px;
+}
+
+.empresa .TxtEmpresa{
+    /*font-weight: bold;*/
+    font-size: 12px;
+}
+
+.cliente{
+    display: inline-block;
+    border: 1px solid;
+    height: 75px;
+    width: 64%;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+}
+
+.cliente .tdLabel{
+    padding-right: 30px;
+    text-align: left;
+    font-weight: bold;
+}
+
+.fechas{
+    display: inline-block;
+    float: right;
+    border: 1px solid;
+    height: 75px;
+    width: 34%;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+}
+
+.fechas .tdLabel{
+    padding-right: 1px;
+    text-align: left;
+    font-weight: bold;
+}
+
+.items{
+    width: 100%;
+    margin-top:10px;
+    border-collapse: collapse;
+    /*width: 90%;*/
+    font-family: "Lucida Console", Monaco, monospace;
+    font-size: 12px !important;
+}
+
+.items .noBorderLeft{
+    border-right-style: none; 
+}
+
+.items .noBorder{
+    border-left-style: none; 
+}
+
+.items thead {
+    background-color: rgb(241,241,241);
+    /*border: 1px solid black;*/
+    /*border-radius: 50px;*/
+    /*margin-bottom: 10px;*/
+}
+
+.items th {
+    /*padding-left: 10px;*/
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+.items td {
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    /*border: 1px solid black;*/
+}
+
+/*.items thead{
+    border: 1px solid;
+    border-radius:10px;
+    padding: 10px;
+    background-color: rgb(241,241,241);
+}*/
+
+.totales{
+    margin-top: 30px;
+}
+
+tr.resumen {
+    text-align: right;
+    font-family: "Lucida Console", Monaco, monospace;
+    font-size: 14px !important;
+    /*padding-right: 5px;*/
+}
+
+.resumen td {
+    border: none;
+}
+
+.items .precio{
+    text-align: right;
+}
+
+.items .descripcion{
+    text-align: left;
+    padding-left: 40px;
+}
+
+.msg{
+    display: inline-block;
+    border: 1px solid;
+    height: 120px;
+    width: 75%;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+}
+
+.qr{
+    display: inline-block;
+    border: 1px solid;
+    float: right;
+    height: 120px;
+    width: 23%;
+    margin-top: 20px;
+    /*padding-left: 10px;*/
+    /*padding-top: 2px;*/
+    /*padding-bottom: 2px;*/
+    border-radius: 10px;
+}
+

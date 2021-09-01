@@ -1,0 +1,7 @@
+#php_value date.timezone 'Europe/Berlin'
+php_value date.timezone 'America/Lima'
+php_value max_execution_time  9999
+php_value max_input_time 9999
+php_value memory_limit  512M
+php_value post_max_size  2048M
+php_value upload_max_filesize  2048M

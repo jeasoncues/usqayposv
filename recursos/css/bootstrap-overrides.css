@@ -1,0 +1,74 @@
+/*Modificaciones a Bootstrap*/
+.ui-datepicker-month{
+    color: #000;
+}
+.ui-datepicker-year{
+    color: #000;
+}
+.contenedor-tabla{
+    overflow-x: auto;
+}
+
+.contenedorventa{
+    background-color: #FFF !important;
+    min-height: 0px !important;
+    padding:  10px !important;
+}
+
+.cntvnt{
+    background-color: #FFF !important;
+}
+
+.btntax{
+    width: 32.6% !important;
+    height: 200px !important;
+    margin-bottom: 3px !important;
+    margin-right: 2px !important;
+    white-space: pre-wrap !important;
+}
+
+.btnadd{
+    width: 32.6% !important;
+    height: 140px !important;
+    margin-bottom: 3px !important;
+}
+
+.btnback{
+    width: 50% !important;
+    height: 100px !important;
+}
+
+.panbtn{
+    padding: 5px !important;
+}
+
+.titulos{
+    color: #333333;
+}
+
+#imgproducto
+#imgservicio{
+    width:90% !important;
+    height:150px !important;
+}
+
+@media (max-width: 1366px) {
+    .btntax{
+      width: 32.6% !important;
+      height: 160px !important;
+    }
+    
+    .btnback{
+        width: 70% !important;
+        height: 80px !important;
+    }
+
+    .btnadd{
+      width: 32.6% !important;
+      height: 110px !important;
+    }
+}
+
+div.DTTT_container {
+    margin-left: 20px !important;
+}

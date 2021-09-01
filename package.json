@@ -1,0 +1,23 @@
+{
+  "name": "katsu",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "browser-sync start --server --files 'assets/css/*.css' 'assets/js/app.js' 'index.html'",
+    "watch": "sass --watch assets/scss/app.scss assets/css/app.css"
+  },
+  "author": "Cesar La chira Cordova",
+  "license": "ISC",
+  "dependencies": {
+    "@popperjs/core": "^2.5.3",
+    "animate.css": "^4.1.1",
+    "axios": "^0.21.0",
+    "bootstrap": "^4.5.2",
+    "jquery": "^3.5.1",
+    "lodash": "^4.17.20",
+    "vue": "^2.6.12",
+    "vuetify": "^2.3.16"
+  }
+}

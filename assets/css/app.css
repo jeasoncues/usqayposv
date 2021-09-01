@@ -1,0 +1,439 @@
+@import url("https://fonts.googleapis.com/css2?family=Sen:wght@400;700;800&display=swap");
+/*$usqay: #18a2b8;*/
+textarea:hover,
+input:hover,
+textarea:active,
+input:active,
+textarea:focus,
+input:focus,
+button:focus,
+button:active,
+button:hover,
+label:focus,
+.btn:active,
+.btn.active {
+  outline: 0px !important;
+  -webkit-appearance: none;
+  box-shadow: none !important;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #dbdbdb;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #b8b8b8;
+}
+
+body {
+  background: #f5f4f6;
+}
+
+.v-application {
+  font-family: "Sen";
+}
+
+.bg-usqay, header nav {
+  background: #00395e;
+}
+
+.text-usqay {
+  color: #00395e !important;
+}
+
+.lbl {
+  font-size: 0.7rem;
+  color: #979797;
+}
+
+.boton {
+  background: #e9ecef;
+  color: #6b6b6b;
+  font-size: 0.6rem;
+}
+
+.boton-descuento {
+  background: #e9ecef;
+  color: #6b6b6b;
+}
+
+.boton-descuento-seleccionado {
+  background: #18a2b8;
+  color: #ffffff;
+}
+
+.size-form {
+  font-size: 0.8rem;
+}
+
+.searc-customer {
+  font-size: 0.8rem;
+  padding: 20px;
+}
+
+.size-form-register {
+  font-size: 0.8rem;
+  padding: 20px;
+}
+
+.btn-outline-usqay {
+  border: 1px solid #00395e;
+  color: #646464;
+}
+
+.btn-usqay {
+  background-color: #00395e;
+  color: #ffffff;
+}
+
+.grupo-materias {
+  margin-top: -10px;
+}
+
+.margen-sup {
+  margin-top: 20px;
+}
+
+.seleccionar {
+  padding: 20px;
+  height: 600px;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+.card {
+  border: none;
+}
+
+.categoria-caja {
+  padding: 3px !important;
+  cursor: pointer;
+}
+.categoria-caja .form-size {
+  font-size: 0.7rem;
+}
+
+.title-materia {
+  color: #646464;
+  font-size: 1rem;
+}
+
+.modal-title {
+  color: #646464;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.seleccionar-title {
+  color: #646464;
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.seleccionar-texto {
+  color: #646464;
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+.seleccionar-texto-pago {
+  color: #646464;
+  font-weight: 600;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.method {
+  padding: 20px;
+}
+.method .title-method {
+  color: #8a8a8a;
+  font-size: 1.4rem;
+}
+.method .title-inf{
+  color: #8a8a8a;
+  font-size: 1.4rem;
+}
+.method .title-method span {
+  font-weight: 600;
+}
+
+.v-card__title {
+  font-size: 0.9rem;
+  color: #979797;
+}
+
+.v-label {
+  font-size: 0.8rem !important;
+  color: #979797;
+}
+
+.almacenes {
+  font-size: 0.8rem;
+}
+
+.btn-return {
+  margin-top: -3px;
+}
+
+.pad-table {
+  padding: 12px !important;
+}
+
+.seleccionado {
+  border-left: 3px solid #00395e;
+}
+
+.btn-size {
+  margin-top: 10px;
+  font-size: 0.8rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn-register {
+  font-size: 0.8rem;
+}
+
+.register-title {
+  font-size: 0.9rem;
+}
+
+.icon-paginate {
+  font-size: 3rem !important;
+}
+
+.categoria {
+  font-size: 0.8rem;
+  color: #ffffff;
+  text-align: center;
+}
+
+.product {
+  font-size: 0.8rem;
+  color: #727272;
+  text-align: center;
+}
+
+.footer-price {
+  padding: 10px 10px 3px 10px !important;
+  background: #00395e;
+}
+.footer-price .price {
+  font-size: 0.8rem;
+  text-align: right;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.venta {
+  background: #ffffff;
+}
+.venta .venta-cliente {
+  border-bottom: 1px solid #e6e6e6;
+}
+.venta .venta-cliente .cliente {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.venta .venta-cliente .cliente .cliente-nombre {
+  margin-top: 10px;
+  font-size: 0.8rem;
+  color: #727272;
+}
+.venta .venta-cliente .cliente .cliente-nombre span {
+  margin-left: 5px;
+}
+.venta .venta-detalle {
+  height: 420px;
+  overflow: scroll;
+  overflow-x: hidden;
+  border-bottom: 1px solid #e6e6e6;
+}
+.venta .venta-detalle .information {
+  cursor: pointer;
+  border-bottom: 1px solid #e6e6e6;
+}
+.venta .venta-detalle .detalle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.venta .venta-detalle .detalle .detalle-nombre {
+  margin-top: 10px;
+  font-size: 0.8rem;
+  color: #727272;
+}
+.venta .venta-detalle .detalle .detalle-nombre span {
+  margin-left: 5px;
+}
+.venta .venta-detalle .detalle .detalle-precio {
+  font-size: 0.8rem;
+  color: #727272;
+  margin-right: 10px;
+}
+.venta .venta-detalle .detalle .eliminar {
+  color: #949494;
+}
+.venta .venta-cobro .descuento {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.venta .venta-cobro .descuento .descuento-texto {
+  font-size: 0.8rem;
+}
+.venta .venta-cobro .descuento .descuento-cantidad {
+  font-size: 0.8rem;
+}
+.venta .venta-cobro .cursor {
+  cursor: pointer;
+}
+.venta .cliente-detalle {
+  padding: 10px;
+}
+.venta .cliente-detalle .btn-add {
+  font-size: 0.7rem;
+}
+.venta .cliente-detalle .customers-list {
+  height: 450px;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+.venta .cliente-detalle .min-top {
+  margin-top: -20px;
+}
+
+.finish .finish-sale .finish-sale-title {
+  color: #979797;
+  font-size: 0.9rem;
+}
+.finish .finish-sale .finish-sale-title span {
+  margin-left: 20px;
+}
+.finish .finish-sale .finish-sale-list {
+  list-style: none;
+  height: 400px;
+  overflow: scroll;
+  overflow-x: hidden;
+  padding: 0 !important;
+}
+.finish .finish-sale .finish-sale-list .finish-sale-list-item {
+  margin-top: 40px;
+  display: flex;
+  margin-right: 12px;
+  justify-content: space-between;
+  color: #979797;
+  border-bottom: 1px dotted #e6e6e6;
+}
+.finish .finish-sale .finish-sale-list .finish-sale-list-item .finish-sale-list-item-text {
+  font-size: 0.9rem;
+}
+.finish .finish-sale .finish-sale-list .finish-sale-list-item .finish-sale-list-item-text span {
+  margin-left: 10px;
+}
+.finish .finish-sale .totals {
+  padding-right: 10px;
+}
+.finish .finish-sale .totals .totals-descuento {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+}
+.finish .finish-sale .totals .totals-descuento .totals-descuento-texto {
+  color: #686868;
+  font-size: 0.9rem;
+}
+.finish .finish-sale .totals .totals-descuento .totals-descuento-cantidad {
+  color: #686868;
+  font-size: 0.9rem;
+}
+.finish .finish-sale .totals .totals-descuento .total {
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.finish .finish-payment {
+  /*border-left: 2px dotted #bdbdbd;*/
+  padding: 10px 20px;
+}
+.finish .finish-payment .finish-payment-info-row .finish-payment-info-column {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.finish .finish-payment .finish-payment-info-row .finish-payment-info-column .finish-payment-info-column-title {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #979797;
+}
+.finish .finish-payment .finish-payment-info-row .finish-payment-info-column .btn {
+  font-size: 0.7rem;
+}
+.finish .finish-payment .finish-payment-info-row .finish-payment-info-column .active-currency {
+  color: #ffffff;
+}
+.finish .finish-payment .finish-payment-amount-row .finish-payment-amount-info .finish-payment-amount-info-title {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #979797;
+}
+.finish .finish-payment .finish-payment-amount-row .finish-payment-amount-column {
+  text-align: center;
+}
+.finish .finish-payment .finish-payment-amount-row .finish-payment-amount-column .finish-payment-amount-column-title {
+  font-size: 0.9rem;
+}
+.finish .finish-payment .finish-payment-amount-row .finish-payment-amount-column .finish-payment-amount-column-total {
+  color: #979797;
+  font-size: 2rem;
+}
+.finish .finish-payment .finish-payment-amount-row .finish-payment-amount-column .faltante {
+  color: #fbbaba;
+}
+.finish .finish-payment .finish-payment-details-row .finish-payment-details-info .finish-payment-details-info-title {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #979797;
+}
+.finish .finish-payment .finish-payment-method-row .finish-payment-method-info .finish-payment-method-info-title {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #979797;
+}
+.finish .finish-payment .finish-payment-method-row .btn {
+  font-size: 0.9rem;
+}
+.finish .finish-payment .finish-payment-method-row .finish-payment-details-column {
+  height: 230px;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+.finish .finish-payment .finish-payment-method-row .finish-payment-details-column .table thead > tr > th {
+  border-top: none;
+  font-size: 0.8rem;
+  color: #b1b1b1;
+}
+.finish .finish-payment .finish-payment-method-row .finish-payment-details-column .table tbody > tr > td {
+  font-size: 0.9rem;
+  color: #909090;
+}
+
+.nopad {
+  padding: 0 !important;
+}
+
+/*# sourceMappingURL=app.css.map */

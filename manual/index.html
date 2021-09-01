@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+		<meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+        <title>Manual de Usuario</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <meta name="description" content="Annotation Overlay Effect with CSS3" />
+        <meta name="keywords" content="css3, overlay, effect, images, portfolio, annotation, tagging, transition" />
+        <meta name="author" content="Codrops" />
+        <link rel="shortcut icon" href="../usqay-icon.svg"> 
+		<link href='http://fonts.googleapis.com/css?family=Alegreya+SC:700,400italic' rel='stylesheet' type='text/css' />
+        <link rel="stylesheet" type="text/css" href="css/demo.css" />
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+		<!--[if lt IE 9]>
+			<script type="text/javascript" src="js/modernizr.custom.04022.js"></script> 
+			<style>.ie-note-1{display:block;}</style>
+		<![endif]-->
+		<!--[if lt IE 10]><style>.ie-note-2{display:block;}</style><![endif]-->
+    </head>
+    <body>
+        <div class="container">
+		
+			<!-- Codrops top bar -->
+            <div class="codrops-top">
+                <!-- <a href="http://tympanus.net/Development/FlipboardPageLayout/">
+                    <strong>&laquo; Previous Demo: </strong>Flipboard Page Layout
+                </a>
+                <span class="right">
+					<a href="http://www.alessioatzeni.com/blog/simple-arrows-psd/">Arrows by Alessio Atzeni</a>
+					<a href="http://themeforest.net/item/blenton-premium-wordpress-template/1995225">Theme Preview by Ana Segota</a>
+                    <a href=" http://tympanus.net/codrops/2012/05/14/annotation-overlay-effect-with-css3/">
+                        <strong>Back to the Codrops Article</strong>
+                    </a>
+                </span>
+                <div class="clr"></div> -->
+            </div><!--/ Codrops top bar -->
+			
+			<header>
+				<h1>Manual de <span>USUARIO</span></h1>
+				<p>A continuacion se describira en forma intuitiva los pasos a seguir para manipular el sistema</p>
+				<!-- <h2 class="ie-note ie-note-1">CSS3 Selectors don't work in Internet Explorer &lt; 9</h2>
+				<h2 class="ie-note ie-note-2">CSS3 Transitions don't work in Internet Explorer &lt; 10</h2> -->
+			</header>
+			
+			<section>
+			
+				<div class="ao-item">
+					<div class="ao-details">
+						<h2>Inicio / Login</h2>
+						<p>Inicia Sesion en nuestro sistema mediante tu numero Documento <b>(DNI, Carnet Extranjeria, Pasaporte, etc).</b> Previamente configurado en la creacion del usuario. </p>
+						<!-- <p><a href="http://themeforest.net/item/blenton-premium-wordpress-template/1995225">Take a look &rarr;</a></p> -->
+					</div>
+					<div class="ao-preview">
+						<input type="checkbox" id="ao-toggle" class="ao-toggle" name="ao-toggle" />
+						<img src="images/login.png" alt="image01" />
+						<div class="ao-annotations">
+							<span>Ingrese DNI, Contraseña</span>
+							<span>Seleccione Caja y Click en el Boton Entrar</span>
+						</div>
+					</div>
+				</div>
+				
+				<div class="ao-item ao-item-left">
+					<div class="ao-details">
+						<h2>Apertura de Caja</h2>
+						<p>Cada vez que vez que el sistema detecta que es un nuevo dia, por defecto el sistema te pide aperturar caja e ingresar un monto inicial. Si pulsamos el boton de cancelar automaticamente seguiremos trabajando con la ultima fecha de cierre y nos redirecciona a la pantalla principal <b>Dashboard</b> </p>
+						<!-- <p><a href="http://themeforest.net/item/blenton-premium-wordpress-template/1995225">Buy the theme &rarr;</a></p> -->
+					</div>
+					<div class="ao-preview">
+						<input type="checkbox" id="ao-toggle" class="ao-toggle" name="ao-toggle" />
+						<img src="images/apert_caja.png" alt="image02" />
+						<div class="ao-annotations">
+							<span>Aperturar Caja</span>
+							<span>Seguir trabajando con la caja de la ultima apertura</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="ao-item">
+					<div class="ao-details">
+						<h2>Monto Inicial</h2>
+						<p>Permite ingresar el monto inicial con el cual se hara la apertura de caja. En caso de que el negocio tenga ventas en dolares, se puede modificar el valor que se encuentra la <b>compra/venta</b> de la moneda </p>
+						<!-- <p><a href="http://themeforest.net/item/blenton-premium-wordpress-template/1995225">Take a look &rarr;</a></p> -->
+					</div>
+					<div class="ao-preview">
+						<input type="checkbox" id="ao-toggle" class="ao-toggle" name="ao-toggle" />
+						<img src="images/monto_inicial.png" alt="image03" />
+						<div class="ao-annotations">
+							<span>Monto Inicial</span>
+							<span>Cambio a Dolar</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="ao-item ao-item-left">
+					<div class="ao-details">
+						<h2>Dashboard o Tablero de Informacion</h2>
+						<p>Podemos observar diversos graficos y tablas, que nos permite obervar e incluso comparar el movmiento del sistema con respecto a otros dias. Se puede visualizar las ventas por mes, relacion ventas/compras semanal y un ranking diario y semanal de los usuarios que mas vendieron, clientes que mas compraron, productos y servicios que tuvieron mas movimientos.  </p>
+						<p>Un Panel Izquiero donde estan todas las opciones del menu que tienen privilegios para el usuario que ha iniciado sesion</p>
+						<p>La parte Izquierda superior, al darle click al logo nos envia directamente a la pantalla de ventas.</p>
+						<!-- <p><a href="http://themeforest.net/item/blenton-premium-wordpress-template/1995225">Buy the theme &rarr;</a></p> -->
+					</div>
+					<div class="ao-preview">
+						<input type="checkbox" id="ao-toggle" class="ao-toggle" name="ao-toggle" />
+						<img src="images/dashboard.png" alt="image02" />
+						<div class="ao-annotations">
+							<span>Menu de Opciones</span>
+							<span>Graficas de Comparacion</span>
+							<span>Ventas Totales en Soles/Dolares</span>
+							<span>Ir a Ventas</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="ao-item">
+					<div class="ao-details">
+						<h2>Configuración - Datos del Negocio</h2>
+						<p>Ingresar la informacion del negocio como Nombre comercial, RUC, Razón Social, entre otros. En esta pantalla tambien se configura la integracion de la facturacion electronica con la SUNAT <b>(Solo el personal de Soporte)</b></p>
+						<!-- <p><a href="http://themeforest.net/item/blenton-premium-wordpress-template/1995225">Take a look &rarr;</a></p> -->
+					</div>
+					<div class="ao-preview">
+						<input type="checkbox" id="ao-toggle" class="ao-toggle" name="ao-toggle" />
+						<img src="images/datos_negocio.png" alt="image03" />
+						<div class="ao-annotations">
+							<span>Click Datos Negocio</span>
+							<span>Actualizar</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="ao-item ao-item-left">
+					<div class="ao-details">
+						<h2>Configuración - Cajas</h2>
+						<p>El Sistema nos permite crear multiples estaciones de Trabajo, Identificando la misma con un nombre y una ubicacion.  </p>
+						<!-- <p><a href="http://themeforest.net/item/blenton-premium-wordpress-template/1995225">Buy the theme &rarr;</a></p> -->
+					</div>
+					<div class="ao-preview">
+						<input type="checkbox" id="ao-toggle" class="ao-toggle" name="ao-toggle" />
+						<img src="images/cajas.png" alt="image07" />
+						<div class="ao-annotations">
+							<span>Guardar o Limpiar Campos</span>
+							<span>Tabla de Informacion</span>
+							<span>Ir a Cajas</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="ao-item">
+					<div class="ao-details">
+						<h2>Configuración - Impuesto</h2>
+						<p>Adaptacion del impuesto porcentual, modificable.</p>
+						<!-- <p><a href="http://themeforest.net/item/blenton-premium-wordpress-template/1995225">Take a look &rarr;</a></p> -->
+					</div>
+					<div class="ao-preview">
+						<input type="checkbox" id="ao-toggle" class="ao-toggle" name="ao-toggle" />
+						<img src="images/impuesto.png" alt="image03" />
+						<div class="ao-annotations">
+							<span>Click Datos Negocio</span>
+							<span>Actualizar</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="ao-item ao-item-left">
+					<div class="ao-details">
+						<h2>Configuración - Categorías Productos/Servicios</h2>
+						<p>Las categorías te permiten clasificar tus productos o servicios de forma que se puedan agrupar en secciones.</p>
+						<p>Al actualizar una nueva categoría, en la columna tipo de la tabla. Al darle click al icono <b>(Ojo)</b> nos redirecciona a las <b>tipos productos o servicios</b> de la fila que ha sido seleccionada.</p>
+						<!-- <p><a href="http://themeforest.net/item/blenton-premium-wordpress-template/1995225">Buy the theme &rarr;</a></p> -->
+					</div>
+					<div class="ao-preview">
+						<input type="checkbox" id="ao-toggle" class="ao-toggle" name="ao-toggle" />
+						<img src="images/catp.png" alt="image07" />
+						<div class="ao-annotations">
+							<span>Actualizar</span>
+							<span>Exportar Data</span>
+							<span>Categorias Productos</span>
+							<span>Categorias Servicios</span>
+							<span><b>Tipos</b></span>
+						</div>
+					</div>
+				</div>
+
+				<div class="ao-item">
+					<div class="ao-details">
+						<h2>Configuración - Tipos Productos/Servicios</h2>
+						<p>Podemos seccionar los productos que pertenecen en una misma categoría.</p>
+
+						<p>Supongamos que la Categoria <b>Tecnologia</b> se puede separar por audio y video, pcs y laptos. Entonces podemos elegir en que sección vamos a guardar nuestro producto/servicio. </p>
+						<!-- <p><a href="http://themeforest.net/item/blenton-premium-wordpress-template/1995225">Take a look &rarr;</a></p> -->
+					</div>
+					<div class="ao-preview">
+						<input type="checkbox" id="ao-toggle" class="ao-toggle" name="ao-toggle" />
+						<img src="images/tipos.png" alt="image03" />
+						<div class="ao-annotations">
+							<span>Click Datos Negocio</span>
+							<span>Actualizar</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="ao-item ao-item-left">
+					<div class="ao-details">
+						<h2>Configuración - Caracteristicas Productos/Servicios</h2>
+						<p>El adicionar caracteristicas a los productos depende del usuario, pueden ser <b>tangibles o intangibles</b>, como su nombre lo indica: <b>tangible</b> que puede ser palpable a los sentidos como lo son el peso, forma, color, textura, etc., e <b>intangibles</b> que no se pueden palpar por ejemplo, imagen de la marca, garantía, beneficios, etc.</p>
+						<!-- <p><a href="http://themeforest.net/item/blenton-premium-wordpress-template/1995225">Buy the theme &rarr;</a></p> -->
+					</div>
+					<div class="ao-preview">
+						<input type="checkbox" id="ao-toggle" class="ao-toggle" name="ao-toggle" />
+						<img src="images/caract.png" alt="image07" />
+						<div class="ao-annotations">
+							<span>Actualizar</span>
+							<span>Caracteristicas Tangibles o Intangibles</span>
+							<span>Caracteristicas Productos/Servicios</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="ao-item">
+					<div class="ao-details">
+						<h2>Configuración - Turnos</h2>
+						<p>El sistema nos permite crear turnos laborales según un cierto ritmo continuo o discontinuo de trabajo. </p>
+						<!-- <p><a href="http://themeforest.net/item/blenton-premium-wordpress-template/1995225">Buy the theme &rarr;</a></p> -->
+					</div>
+					<div class="ao-preview">
+						<input type="checkbox" id="ao-toggle" class="ao-toggle" name="ao-toggle" />
+						<img src="images/turnos.png" alt="image07" />
+						<div class="ao-annotations">
+							<span>Actualizar</span>
+							<span>Tabla de Informacion</span>
+							<span>Ir a Turnos</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="ao-item ao-item-left">
+					<div class="ao-details">
+						<h2>Productos</h2>
+						<p>La creación de productos es darle la descripcion, el precio de compra y venta. Esto para que el sistema pueda comparar a la hora de sacar las ganancias</p>
+
+						<p>Podemos apreciar que los atributos creados en la previa configuración, se visualizan en la pantalla, al crear un producto podemos elegir: </p>
+
+						<p>
+							<ul>
+								<li>Impuesto (Gravada, Inafecta, Exonerada y Gratuita)</li>		
+								<li>Categoría</li>	
+								<li>Tipo</li>
+								<li>Caracteristicas (Color, Codigo)</li>	
+							</ul>
+						</p>
+
+						<!-- <p><a href="http://themeforest.net/item/blenton-premium-wordpress-template/1995225">Buy the theme &rarr;</a></p> -->
+					</div>
+					<div class="ao-preview">
+						<input type="checkbox" id="ao-toggle" class="ao-toggle" name="ao-toggle" />
+						<img src="images/productos.png" alt="image07" />
+						<div class="ao-annotations">
+							
+						</div>
+					</div>
+				</div>
+
+				<div class="ao-item">
+					<div class="ao-details">
+						<h2>Servicios</h2>
+						<p>Muy parecido a la creacion de productos es darle la descripcion, el precio de compra y venta. Esto para que el sistema pueda comparar a la hora de sacar las ganancias</p>
+
+						<p>Podemos apreciar que los atributos creados en la previa configuración, se visualizan en la pantalla </p>
+						
+						<p>Con la diferencia, que para un servicio se le pueden atar productos, en la columna productos al darle click al icono <b>(Ojo)</b> nos redirecciona a los <b>productos</b>que seran integrados al servicio seleccionado</p></p>
+						<!-- <p><a href="http://themeforest.net/item/blenton-premium-wordpress-template/1995225">Buy the theme &rarr;</a></p> -->
+					</div>
+					<div class="ao-preview">
+						<input type="checkbox" id="ao-toggle" class="ao-toggle" name="ao-toggle" />
+						<img src="images/servicios.png" alt="image07" />
+						<div class="ao-annotations">
+							<span>Agregar productos</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="ao-item ao-item-left">
+					<div class="ao-details">
+						<h2>Servicios - Agregar Productos a un Servicio</h2>
+						<p>Permite adicionar, productos a un servicio. Esto quiere decir que cuando se elige un servicio se descontara la <b>N</b> cantidad de los <b>N</b> productos que se elijan para el mismo.</p>
+
+						<p>Al darle click a la etiqueta <b>seleccionar</b> nos listará los productos</p>
+						<!-- <p><a href="http://themeforest.net/item/blenton-premium-wordpress-template/1995225">Buy the theme &rarr;</a></p> -->
+					</div>
+					<div class="ao-preview">
+						<input type="checkbox" id="ao-toggle" class="ao-toggle" name="ao-toggle" />
+						<img src="images/prodserv.png" alt="image07" />
+						<div class="ao-annotations">
+						</div>
+					</div>
+				</div>
+
+				<div class="ao-item">
+					<div class="ao-details">
+						<h2>Usuarios</h2>
+						<p>Modulo para crear personal a manipular el sistema, en el puedes elegir distintos tipos de usuarios:</p>
+						<p>
+							<ul>
+								<li>Staff</li>
+								<li>Administrador</li>
+								<li>Cajero</li>
+								<li>Terminal</li>
+							</ul>
+						</p>
+
+						<p>Los provilegios varian según el tipo de usuario creado para el usuario, tambien se puede modificar, dando click al boton de privilegios <b>Boton Rojo con icono de Candado</b></p>
+						<!-- <p><a href="http://themeforest.net/item/blenton-premium-wordpress-template/1995225">Buy the theme &rarr;</a></p> -->
+					</div>
+					<div class="ao-preview">
+						<input type="checkbox" id="ao-toggle" class="ao-toggle" name="ao-toggle" />
+						<img src="images/usuario.png" alt="image07" />
+						<div class="ao-annotations">
+						</div>
+					</div>
+				</div>
+
+				<div class="ao-item ao-item-left">
+					<div class="ao-details">
+						<h2>Almacen - Almacenes</h2>
+						<p>Al crear almacenes, nos permite poder separar por espacios donde guardar los productos</p>
+
+						<p><b>Sencillo!</b> Colocamos el nombre y la ubicacion y damos click en el boton guardar.</p>
+						<!-- <p><a href="http://themeforest.net/item/blenton-premium-wordpress-template/1995225">Buy the theme &rarr;</a></p> -->
+					</div>
+					<div class="ao-preview">
+						<input type="checkbox" id="ao-toggle" class="ao-toggle" name="ao-toggle" />
+						<img src="images/almacen.png" alt="image07" />
+						<div class="ao-annotations">
+						</div>
+					</div>
+				</div>
+
+				<div class="ao-item">
+					<div class="ao-details">
+						<h2>Almacen - Guia de Productos</h2>
+						<p>Simplemente nos sirve para agregar un registro donde podemos contemplar el proveedor e identificar la guia (Boleta, Factura, Nota).</p>
+
+						<p>Una vez creada la guia, en la columna de Productos hacemos click al icono <b>(Ojo)</b> para poder agregar el detalle de la guia y asi alimentar nuestro Stock </p> <!-- <p><a href="http://themeforest.net/item/blenton-premium-wordpress-template/1995225">Buy the theme &rarr;</a></p> -->
+					</div>
+					<div class="ao-preview">
+						<input type="checkbox" id="ao-toggle" class="ao-toggle" name="ao-toggle" />
+						<img src="images/guias_productos.png" alt="image07" />
+						<div class="ao-annotations">
+						</div>
+					</div>
+				</div>
+
+
+				<div class="ao-item ao-item-left">
+					<div class="ao-details">
+						<h2>Almacen - Detalles de Guia</h2>
+						<p>Para cada Guia de entrada/salida podemos seleccionar los productos pertenecientes a ella, asi como tambien, en que almacen sera alojado.</p>
+
+						<p>Para seleccionar productos y almacen. damos click en la etiqueta <b>Seleccionar</b> automaticamente se abrirá las ventanas con la informacion requerida.</p>
+
+						<p>Culminanos colocando la caantidad y el precio del producto y actualizamos la data</p>
+
+
+						<!-- <p><a href="http://themeforest.net/item/blenton-premium-wordpress-template/1995225">Buy the theme &rarr;</a></p> -->
+					</div>
+					<div class="ao-preview">
+						<input type="checkbox" id="ao-toggle" class="ao-toggle" name="ao-toggle" />
+						<img src="images/deta_guia.png" alt="image07" />
+						<div class="ao-annotations">
+						</div>
+					</div>
+				</div>
+
+				<div class="ao-item">
+					<div class="ao-details">
+						<h2>Almacen - Proveedor</h2>
+						<p>Para crear un proveedor, necesitamos informacion sobre el. Su Razon Social, RUC, Dirección y Telefono.</p>
+
+					</div>
+					<div class="ao-preview">
+						<input type="checkbox" id="ao-toggle" class="ao-toggle" name="ao-toggle" />
+						<img src="images/proveedor.png" alt="image07" />
+						<div class="ao-annotations">
+						</div>
+					</div>
+				</div>
+
+				<div class="ao-item ao-item-left">
+					<div class="ao-details">
+						<h2>Almacen - Kardex</h2>
+						<p>El Kardex nos permite llevar el control de la mercaderia, visualizamos las entradas y salidas de los productos y conocemos las existencias en tiempo real que el negocio posee para la venta. </p>
+					</div>
+					<div class="ao-preview">
+						<input type="checkbox" id="ao-toggle" class="ao-toggle" name="ao-toggle" />
+						<img src="images/kardex.png" alt="image07" />
+						<div class="ao-annotations">
+						</div>
+					</div>
+				</div>
+
+				<div class="ao-item">
+					<div class="ao-details">
+						<h2>Clientes</h2>
+						<p>En este modulo te la opcion de crear los clientes, cumpliendo los campos requeridos. </p> 
+						<p>Tambien existe la opcion rapida de crear clientes al procesar una venta.</p>
+
+					</div>
+					<div class="ao-preview">
+						<input type="checkbox" id="ao-toggle" class="ao-toggle" name="ao-toggle" />
+						<img src="images/clientes.png" alt="image07" />
+						<div class="ao-annotations">
+						</div>
+					</div>
+				</div>
+
+				<div class="ao-item ao-item-left">
+					<div class="ao-details">
+						<h2>Compras</h2>
+						<p>Llevar un control de la salida de tu dinero en compras es mucho mas facil, para ello seleccionamos un proveedor y registramos nuestro tipo de documento seguido de su numero. El monto total de la compra y la fecha del ingreso. </p>
+
+						<p>Es importante seleccionar de donde sale el dinero de la compra, en el campo <b>Caja Pago</b> elegimos si es dinero externo o de caja previamente configurada.</p>
+
+						<p>Si la compra fue un credito, en el campo <b>Monto Pendiente</b> colocamos el saldo deudor y una fecha aproximada de pago (Como Estimacion). Actualizar la data</p>
+
+						<p>Se puede observar en la tabla, los datos que fueron ingresados previamente, en la columna guia podemos añadir una guia de ingreso y atarla a la compra que hha sido creada </p>
+					</div>
+					<div class="ao-preview">
+						<input type="checkbox" id="ao-toggle" class="ao-toggle" name="ao-toggle" />
+						<img src="images/compras.png" alt="image07" />
+						<div class="ao-annotations">
+						</div>
+					</div>
+				</div>
+
+				<div class="ao-item">
+					<div class="ao-details">
+						<h2>Caja - Cierre de Caja</h2>
+						<p>Podemos observar que directamente desglozamos las ventas del dia en distintas operaciones:</p>
+						<p><ul>
+							<li>Total Vendido</li>
+							<li>Vendido en Efectivo</li>
+							<li>Vendido en Visa</li>
+							<li>Vendido en Mastercard</li>
+							<li>Monto Inicial</li>
+							<li>Ingresos Adicionales</li>
+							<li>Total de Salidas</li>
+							<li>Total de Soles en Caja</li>
+							<li>Total de Dolares en Caja</li>
+							<li>Total en Caja</li>
+							<li>Fondos Externos (Creditos)</li>
+							<li>Total Pagados en Fondos Externos (Creditos Cobrados)</li>
+							<li>Salidas Fondos Externos</li>
+						</ul></p>
+
+					</div>
+					<div class="ao-preview">
+						<input type="checkbox" id="ao-toggle" class="ao-toggle" name="ao-toggle" />
+						<img src="images/cierre.png" alt="image07" />
+						<div class="ao-annotations">
+						</div>
+					</div>
+				</div>
+
+				<div class="ao-item ao-item-left">
+					<div class="ao-details">
+						<h2>Compras</h2>
+						<p>Podemos registrar el ingreso y salida de pagos adjuntandole una descripcion para asi poder saber con mayor determinacion para que fue utilizado.</p>
+					</div>
+					<div class="ao-preview">
+						<input type="checkbox" id="ao-toggle" class="ao-toggle" name="ao-toggle" />
+						<img src="images/movcaja.png" alt="image07" />
+						<div class="ao-annotations">
+						</div>
+					</div>
+				</div>
+
+				<div class="ao-item">
+					<div class="ao-details">
+						<h2>Pantalla Ventas</h2>
+						<p>Llegamos a esta pantalla, dando click al logo de nuestro sistema. Podemos apreciar que diferenciamos con pestañas los productos y servicios.</p>
+
+						<p>Para una busqueda rapida, escribimos el nombre del producto o servicio seguido de la tecla enter. Tambien, podemos ir dando click segun su categoria y sus tipos que se han configurado anteriormente.</p>
+
+						<p>Por ultimo elejimos el productos o servicio.</p>
+						
+
+					</div>
+					<div class="ao-preview">
+						<input type="checkbox" id="ao-toggle" class="ao-toggle" name="ao-toggle" />
+						<img src="images/teclado.png" alt="image07" />
+						<div class="ao-annotations">
+						</div>
+					</div>
+				</div>
+
+				<div class="ao-item ao-item-left">
+					<div class="ao-details">
+						<h2>Ventas - Agregar Productos/Servicio</h2>
+						<p>Al agregar un Producto/Servicio, siempre por defecto estara la cantidad 1 (Unidad) y podemos modificarla dando click en los numeros o modificar con el teclado. Para aceptar el Producto/Servicio le damos click al carrito.</p>
+
+						<p>En este contenedor, visualizamos tambien la cantidad existente en Stock y la descripcion del producto o servicio.</p>
+					</div>
+					<div class="ao-preview">
+						<input type="checkbox" id="ao-toggle" class="ao-toggle" name="ao-toggle" />
+						<img src="images/add.png" alt="image07" />
+						<div class="ao-annotations">
+						</div>
+					</div>
+				</div>
+
+				<div class="ao-item">
+					<div class="ao-details">
+						<h2>Ventas - Detalles </h2>
+						<p>Los detalles nos permite visualizar la cantidad que elegimos el precio unitario y el total. Tres Botones de opciones, para agregar, para quitar y para eliminar producto o servicios </p>
+
+						<p>Con un doble click en cantidad en cantidad y en el precio unitario nos permite cambiar de manera rapida el elemento. Cuando cambiamos el precio Unitario solo afectamos la venta, el precio unitario para el producto o el servicio seguirá siendo el mismo que configuramos.</p>
+
+						<p>Los checkbox que se encuentra al lado del elemento, son generar multiples comprobantes. Es decir, Si seleccionamos un elemento podemos hacer una nota, una boleta o una factura solo para ese elemento que hemos elegido. </p>
+
+						<p>En el campo DNI/RUC, se puede consultar al cliente escribiendo su documento y seguido de la tecla enter. Si se encuentra el usuario, automaticamente se colocaran sus nombres, direccion y resto de informacion guardada. Para efecto de boleta y factura el campo de correo electronico servira para que el comprobante llegue de forma digital al usuario via email.</p>
+
+					</div>
+					<div class="ao-preview">
+						<input type="checkbox" id="ao-toggle" class="ao-toggle" name="ao-toggle" />
+						<img src="images/detalles.png" alt="image07" />
+						<div class="ao-annotations">
+						</div>
+					</div>
+				</div>
+
+				<div class="ao-item ao-item-left">
+					<div class="ao-details">
+						<h2>Ventas - Medio de Pagos</h2>
+						<p>Antes de generar un venta, tenemos que elegir de que manera esta ingresando su pago, el medio de pago, la moneda y el monto. Y pagamos la venta para que empiece el ciclo de registrar la venta e imprimir el comprobante</p>
+					</div>
+					<div class="ao-preview">
+						<input type="checkbox" id="ao-toggle" class="ao-toggle" name="ao-toggle" />
+						<img src="images/medio_pago.png" alt="image07" />
+						<div class="ao-annotations">
+						</div>
+					</div>
+				</div>
+
+			</section>
+			
+        </div>
+	</body>
+</html>
